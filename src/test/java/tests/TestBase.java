@@ -13,7 +13,8 @@ import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
-import io.cucumber.testng.AbstractTestNGCucumberTests;
+
+import cucumber.api.testng.AbstractTestNGCucumberTests;
 
 public class TestBase extends AbstractTestNGCucumberTests
 {
